@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Jun  5 14:03:39 2023
+# Process ID: 21300
+# Current directory: C:/Users/Thenu/lab9
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent42640 C:\Users\Thenu\lab9\lab9.xpr
+# Log file: C:/Users/Thenu/lab9/vivado.log
+# Journal file: C:/Users/Thenu/lab9\vivado.jou
+#-----------------------------------------------------------sstart_gui
+open_project C:/Users/Thenu/lab9/lab9.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 920.180 ; gain = 135.246
+update_compile_order -fileset sources_1eexit
+INFO: [Common 17-206] Exiting Vivado at Mon Jun  5 14:05:13 2023...
