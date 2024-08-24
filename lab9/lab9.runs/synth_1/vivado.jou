@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat Jun  3 11:06:20 2023
+# Process ID: 19600
+# Current directory: C:/Desktop/Vivado Labs/lab9/lab9.runs/synth_1
+# Command line: vivado.exe -log PC.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PC.tcl
+# Log file: C:/Desktop/Vivado Labs/lab9/lab9.runs/synth_1/PC.vds
+# Journal file: C:/Desktop/Vivado Labs/lab9/lab9.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source PC.tcl -notrace

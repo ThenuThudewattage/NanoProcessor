@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Jun  5 14:34:47 2023
+# Process ID: 11916
+# Current directory: C:/Users/Thenu/lab9/lab9/lab9.sim/sim_1/behav/xsim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9752 C:\Users\Thenu\lab9\lab9\lab9.sim\sim_1\behav\xsim\TB_Mux_2_to_1_3bit_behav.wdb
+# Log file: C:/Users/Thenu/lab9/lab9/lab9.sim/sim_1/behav/xsim/vivado.log
+# Journal file: C:/Users/Thenu/lab9/lab9/lab9.sim/sim_1/behav/xsim\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_wave_database {C:\Users\Thenu\lab9\lab9\lab9.sim\sim_1\behav\xsim\TB_Mux_2_to_1_3bit_behav.wdb}
+cclose_sim
