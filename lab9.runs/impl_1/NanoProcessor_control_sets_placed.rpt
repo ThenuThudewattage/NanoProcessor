@@ -1,0 +1,79 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Sun Jun 11 22:02:15 2023
+| Host         : LAPTOP-GGSRL215 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file NanoProcessor_control_sets_placed.rpt
+| Design       : NanoProcessor
+| Device       : xc7a35t
+------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    11 |
+| Unused register locations in slices containing registers |    51 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            2 |
+|      3 |            5 |
+|      4 |            2 |
+|      5 |            1 |
+|    16+ |            1 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              16 |            7 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              32 |            9 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              13 |            3 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------------+------------------------+----------------------------------------+------------------+----------------+
+|               Clock Signal               |      Enable Signal     |            Set/Reset Signal            | Slice Load Count | Bel Load Count |
++------------------------------------------+------------------------+----------------------------------------+------------------+----------------+
+|  Instruction_Decoder_0/LoadSelect_reg/G0 |                        |                                        |                1 |              1 |
+|  Program_Counter_0/Reg_Enable0           |                        | Program_Counter_0/memory_selc_reg[2]_0 |                1 |              1 |
+|  Program_Counter_0/E[0]                  |                        |                                        |                1 |              3 |
+|  Program_Counter_0/Q_reg[3]_1[0]         |                        |                                        |                1 |              3 |
+|  Program_Counter_0/Q_reg[3]_2[0]         |                        |                                        |                1 |              3 |
+|  Clk_BUFG                                |                        |                                        |                2 |              3 |
+|  CLK_IBUF_BUFG                           |                        |                                        |                1 |              3 |
+|  Clk_BUFG                                | Program_Counter_0/y[0] | Reset_IBUF                             |                1 |              4 |
+|  Clk_BUFG                                | Program_Counter_0/y[1] | Reset_IBUF                             |                1 |              4 |
+|  Clk_BUFG                                | Program_Counter_0/y[2] | Reset_IBUF                             |                1 |              5 |
+|  CLK_IBUF_BUFG                           |                        | Slow_Clk_0/count[31]_i_1_n_0           |                8 |             31 |
++------------------------------------------+------------------------+----------------------------------------+------------------+----------------+
+
+
